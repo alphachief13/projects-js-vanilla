@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Figtree:ital,wght@0,300;0,500;1,300&family=League+Spartan:wght@400;500;700&family=Mynerve&family=Roboto:ital,wght@0,400;1,100;1,300&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #030336;
+    color: white;
+    font-weight: 100;
+}
+
+header{
+    height: 75px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    border-bottom: 1px solid #1818c4;
+}
+
+.d{
+    width: 200px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d a{
+    font-size: 25px;
+    background-color: #1818c4;
+    padding: 8px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.d a:hover{
+    opacity: 0.8;
+}
+
+.inicio{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro{
+    width: 500px;
+    height: 350px;
+    margin-right: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h1-1{
+    font-size: 28px;
+    margin: 0;
+}
+
+.h1-2{
+    margin: 0;
+}
+
+
+.imagem img{
+    height: 350px;
+    width: 350px;
+}
+
+.sobre-mim{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 200px;
+}
+
+.sobre-mim h2{
+    font-size: 30px;
+}
+
+.texto p{
+    color: rgb(139, 139, 139);
+    font-size: 22px;
+    text-align: center;
+}
+
+.texto{
+    width: 50%;
+}
+
+body::-webkit-scrollbar {
+    width: 14px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #1818c4; 
+}
+
+.projetos-imgs{
+    margin: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 250px;
+    transition: transform 0.3s ease;
+    margin: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.box:hover{
+    transform: scale(1.5);
+}
+
+#p1{
+    background-image: url("img/p1.png");
+}
+
+#p2{
+    background-image: url("img/p2.png");
+}
+
+#p3{
+    background-image: url("img/p3.png");
+}
+
+#p4{
+    background-image: url("img/p4.png");
+}
+#p5{
+    background-image: url("img/p5.png");
+}
+
+.projetos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projetos h1{
+    font-size: 38px;
+}
