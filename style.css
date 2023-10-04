@@ -145,6 +145,10 @@ body::-webkit-scrollbar-thumb {
     background-image: url("img/p5.png");
 }
 
+#p6{
+    background-image: url("img/p6.png");
+}
+
 .projetos{
     display: flex;
     justify-content: center;
